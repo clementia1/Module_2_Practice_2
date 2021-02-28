@@ -7,16 +7,16 @@ using Module_2_Practice_2.Models.Enums;
 
 namespace Module_2_Practice_2.Models.Animals.Carnivore
 {
-    public class Lion : Carnivore
+    public class Tiger : Carnivore
     {
-        public Lion(LionType lionType, DateTime birthDate, bool isFertile, bool isDangerous)
+        public Tiger(TigerType tigerType, DateTime birthDate, bool isFertile, bool isDangerous)
             : base(birthDate, isFertile, isDangerous)
         {
-            LionType = lionType;
+            TigerType = tigerType;
         }
 
-        public override string Name { get; set; } = "Lion";
+        public override string Name { get; set; } = "Tiger";
 
-        public LionType LionType { get; set; }
+        public TigerType TigerType { get; set; }
     }
 }

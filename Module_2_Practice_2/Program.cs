@@ -6,7 +6,8 @@ namespace Module_2_Practice_2
     {
         private static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            var starter = new Starter();
+            starter.Run();
         }
     }
 }
